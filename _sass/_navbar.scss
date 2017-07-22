@@ -26,7 +26,12 @@
   }
 
   .navbar-inverse .navbar-nav > li > a {
-    color: black;
+    color: #fff;
+  }
+
+  .navbar-inverse .navbar-nav>.active>a{
+    background-color: #fff;
+    color: #999;
   }
 
   .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
@@ -38,7 +43,7 @@
     padding: 6px 0;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
-    color: lightblue;
+    color: #999;
   }
   li a:after {
     content: '';
@@ -84,15 +89,19 @@
              Big Logo
     ********************************** */
   .big-logo-row {
-    background: gold;
+    background: #3a235d;
+    background: linear-gradient(141deg, #523185 15%, #3a235d 100%);
   }
   .big-logo-row .big-logo-container {
-    padding-top: 50px;
+    padding-top: 90px;
+    padding-bottom: 110px;
   }
   .big-logo-row h1 {
     font-size: 4em;
     margin: 0;
-    padding: 0 0 15px 0;
+    padding-bottom: 10px;
+    border-bottom: 15px solid;
+    display: inline-block;
   }
   @media (min-width: 400px) {
     .big-logo-row h1 {
@@ -117,7 +126,6 @@
   @media (min-width: 768px) {
     .big-logo-row h1 {
       font-size: 9em;
-      padding-bottom: 30px;
     }
   }
   @media (min-width: 1200px) {

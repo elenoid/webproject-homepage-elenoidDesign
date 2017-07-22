@@ -1,0 +1,15 @@
+@font-face {
+font-family: "koblenz";
+src: url("/../fonts/Koblenz-Serial-Regular.ttf");
+}
+
+body{
+  background-color: #fdfdfd;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.small-logo,
+.big-logo{
+  font-family: koblenz;
+  color: #fff;
+}

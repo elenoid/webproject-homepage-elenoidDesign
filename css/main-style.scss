@@ -1,4 +1,66 @@
 ---
 ---
-
+@import "general";
 @import "navbar";
+
+
+ // https://tympanus.net/Tutorials/CSS3RotatingWords/index.html
+
+
+
+#sub-headline{
+	background-color: #e5d5ff;
+	background-image:radial-gradient(circle, #fbf8ff -60%,#e5d5ff 50%);
+	padding: 50px 0;
+
+	h2{
+		margin-left: 70px;
+		font-size: 40px;
+		font-weight: 200;
+		font-style: italic
+	}
+
+	.rw-words{
+		text-indent: 15px;
+		display: inline;
+		font-weight: 700;
+		color:  #fff;
+	}
+
+	.rw-words-1 span{
+		position: absolute;
+		opacity: 0;
+		overflow: hidden;
+		animation: rotateWord 15s linear infinite 0s;
+	}
+	.rw-words-1 span:nth-child(2) {
+		animation-delay: 3s;
+	}
+	.rw-words-1 span:nth-child(3) {
+		animation-delay: 6s;
+	}
+	.rw-words-1 span:nth-child(4) {
+		animation-delay: 9s;
+	}
+
+	.rw-words-1 span:nth-child(5) {
+		animation-delay: 12s;
+	}
+
+
+	@keyframes rotateWord {
+	    0% { opacity: 0; }
+	    2% { opacity: 0; transform: translateY(-30px); }
+		5% { opacity: 1; transform: translateY(0px);}
+	    17% { opacity: 1; transform: translateY(0px); }
+		20% { opacity: 0; transform: translateY(30px); }
+		80% { opacity: 0; }
+	    100% { opacity: 0; }
+	}
+	@media screen and (max-width: 768px){
+	 	h2 { font-size: 18px; }
+	}
+	@media screen and (max-width: 320px){
+		h2 { font-size: 9px; }
+	}
+}
