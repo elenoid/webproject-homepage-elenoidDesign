@@ -1,0 +1,48 @@
+
+
+// =====================================
+//  - Vitruvian man
+// =====================================
+
+#vitruvian-man{
+  position: relative;
+  padding-top: 15px;
+  height: 245px;
+
+  .vitruvian-man__box{
+    background-color: $body-color;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .vitruvian-man__circle{
+    background-color: $body-color;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    height: inherit;
+    width: 245px;
+  }
+
+  .vitruvian-man__img{
+    background-image: url(/img/vitruvian-man.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50% 2% 0% 2%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .vitruvian-man__stripe{
+    background-color: #3a235d;
+    position: absolute;
+    height: 177px;
+    z-index: -1;
+
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}

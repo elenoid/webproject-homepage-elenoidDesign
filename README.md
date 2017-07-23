@@ -3,6 +3,7 @@ Zu tun:
 Kontakt
 - Rufen sie mich an gross
 Solide, Schnell, Sicher, Suport - Section
+- mit Haken
 Referenz
 Preis Seite
 - in Packete
@@ -12,6 +13,9 @@ Seite mit IE testen
 modernizer
 autoprefixer funktioniert nicht?
 Über mich Seite
+Da Vinci man section
+Einleitungstext responsive
+BEM
 
 fertig:
 *********

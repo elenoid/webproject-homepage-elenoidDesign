@@ -3,8 +3,9 @@
   // =====================================
   //  - Navbar
   //
-  //  Some Style Overrides on Bootstrap
+  //  backup für koblenz herausfinden
   // =====================================
+
 
   .navbar-inverse {
     background: rgba(62, 195, 246, 0);
@@ -83,14 +84,22 @@
     color: white;
     font-size: 2.5em;
     padding-bottom: 2px;
+    font-family: koblenz;
+    color: #fff;
   }
 
   /* *********************************
              Big Logo
     ********************************** */
+
+    .big-logo{
+      font-family: koblenz;
+      color: #fff;
+    }
+
   .big-logo-row {
     background: #3a235d;
-    background: linear-gradient(141deg, #523185 15%, #3a235d 100%);
+    background: linear-gradient(141deg, #57358c 15%, #3a235d 100%);
   }
   .big-logo-row .big-logo-container {
     padding-top: 90px;
