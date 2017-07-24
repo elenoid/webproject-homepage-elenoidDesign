@@ -4,43 +4,35 @@
 //  - Vitruvian man
 // =====================================
 
-#vitruvian-man{
+#mona-lisa{
   margin-top: 150px;
   position: relative;
-  padding-top: 15px;
-  height: 245px;
+  height: 177px;
 
-  .vitruvian-man__box{
+  .mona-lisa__box{
     background-color: $body-color;
+    margin: 0 auto;
+    padding: 0 14px;
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 170px;
     z-index: -1;
   }
 
-  .vitruvian-man__circle{
-    background-color: $body-color;
-    border-radius: 50%;
-    margin: 0 auto;
-    padding: 15px;
-    height: inherit;
-    width: 245px;
-  }
 
-  .vitruvian-man__img{
-    background-image: url(/img/vitruvian-man.png);
+  .mona-lisa__img{
+    background-image: url(/img/mona-lisa.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50% 2% 0% 2%;
     height: 100%;
     width: 100%;
   }
 
-  .vitruvian-man__stripe{
+  .mona-lisa__stripe{
     background-color: #3a235d;
     background-image: radial-gradient(circle, #3a235d 0%, #57358c 120%);
     position: absolute;
-    height: 177px;
+    height: 100%;
     z-index: -1;
 
     left: 0;

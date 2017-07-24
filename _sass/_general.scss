@@ -2,18 +2,28 @@
 
 // =====================================
 //  - General
+//
+//  https://www.toptal.com/designers/subtlepatterns/seamless-paper-texture/
 // =====================================
 
 
+// Schriften
 @font-face {
   font-family: "koblenz";
   src: url("/../fonts/Koblenz-Serial-Regular.ttf");
 }
 
+
 body{
   background-color: #fdfdfd;
   font-family: 'Nunito Sans', sans-serif;
-  p{
-    color: #555;
-  }
+  background-image: url(/img/seamless_paper_texture.jpg);
+}
+
+p{
+  color: #555;
+}
+
+.font-600{
+  font-weight: 600;
 }

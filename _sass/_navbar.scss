@@ -4,6 +4,7 @@
   //  - Navbar
   //
   //  backup für koblenz herausfinden
+  //  big logo in img umwandeln
   // =====================================
 
 
@@ -93,13 +94,14 @@
     ********************************** */
 
     .big-logo{
-      font-family: koblenz;
       color: #fff;
+      font-family: koblenz;
     }
 
   .big-logo-row {
     background: #3a235d;
     background: linear-gradient(141deg, #57358c 15%, #3a235d 100%);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 4px;
   }
   .big-logo-row .big-logo-container {
     padding-top: 90px;

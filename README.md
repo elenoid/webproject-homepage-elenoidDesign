@@ -2,8 +2,6 @@ Zu tun:
 *********
 Kontakt
 - Rufen sie mich an gross
-Solide, Schnell, Sicher, Suport - Section
-- mit Haken
 Referenz
 Preis Seite
 - in Packete
@@ -20,3 +18,5 @@ BEM
 fertig:
 *********
 Einleitungstext
+Solide, Schnell, Sicher, Suport - Section
+- mit Haken
