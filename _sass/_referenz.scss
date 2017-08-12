@@ -9,19 +9,20 @@
 
 #referenz{
   background-color: #b1a5c1;
+  background-color: #d1c9dc;
   margin-top: 120px;
   margin-bottom: 500px;
 
   figure.ref-box {
+    background-color: $dark-violet2;
     font-family: 'Raleway', Arial, sans-serif;
     position: relative;
     overflow: hidden;
-    margin: 10px 1%;
+    margin: auto;
     min-width: 220px;
     max-width: 310px;
     max-height: 220px;
     width: 100%;
-    background: #000000;
     color: #ffffff;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
@@ -46,7 +47,7 @@
     position: absolute;
     left: 40px;
     right: 40px;
-    background: #000000;
+    background: $dark-violet;
     transform: translate(0, -50%);
     padding: 12px 10px;
     margin: 0;
