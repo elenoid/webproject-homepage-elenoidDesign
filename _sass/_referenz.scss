@@ -8,13 +8,13 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 #referenz{
-    margin-top: 120px;
+  background-color: #b1a5c1;
+  margin-top: 120px;
   margin-bottom: 500px;
 
-  figure.snip1089 {
+  figure.ref-box {
     font-family: 'Raleway', Arial, sans-serif;
     position: relative;
-    float: left;
     overflow: hidden;
     margin: 10px 1%;
     min-width: 220px;
@@ -26,30 +26,27 @@
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   }
-  figure.snip1089 * {
-    -webkit-box-sizing: border-box;
+  figure.ref-box * {
     box-sizing: border-box;
-    -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
-  figure.snip1089 img {
+  figure.ref-box img {
     max-width: 100%;
     position: relative;
     opacity: 0.4;
   }
-  figure.snip1089 figcaption {
+  figure.ref-box figcaption {
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
   }
-  figure.snip1089 h2 {
+  figure.ref-box h2 {
     position: absolute;
     left: 40px;
     right: 40px;
     background: #000000;
-    -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
     padding: 12px 10px;
     margin: 0;
@@ -57,10 +54,10 @@
     text-transform: uppercase;
     font-weight: 400;
   }
-  figure.snip1089 h2 span {
+  figure.ref-box h2 span {
     font-weight: 800;
   }
-  figure.snip1089:before {
+  figure.ref-box:before {
     top: 10px;
     left: 10px;
     right: 10px;
@@ -68,10 +65,9 @@
     content: '';
     background: #ffffff;
     position: absolute;
-    -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
   }
-  figure.snip1089 a {
+  figure.ref-box a {
     left: 0;
     right: 0;
     top: 0;
@@ -79,43 +75,25 @@
     position: absolute;
     z-index: 1;
   }
-  figure.snip1089.blue {
+  figure.ref-box.blue {
     background: #123851;
   }
-  figure.snip1089.blue h2 {
+
+  figure.ref-box.blue h2 {
     background: #0a212f;
   }
-  figure.snip1089.red {
-    background: #581a14;
-  }
-  figure.snip1089.red h2 {
-    background: #36100c;
-  }
-  figure.snip1089.yellow {
-    background: #7b410e;
-  }
-  figure.snip1089.yellow h2 {
-    background: #562e0a;
-  }
-  figure.snip1089.green {
-    background: #104627;
-  }
-  figure.snip1089.green h2 {
-    background: #082514;
-  }
-  figure.snip1089:hover img,
-  figure.snip1089.hover img {
+
+  figure.ref-box:hover img,
+  figure.ref-box.hover img {
     opacity: 1;
-    -webkit-transform: scale(1.1);
     transform: scale(1.1);
   }
-  figure.snip1089:hover h2,
-  figure.snip1089.hover h2 {
+  figure.ref-box:hover h2,
+  figure.ref-box.hover h2 {
     top: -50%;
   }
-  figure.snip1089:hover:before,
-  figure.snip1089.hover:before {
-    -webkit-transform: translateY(150%);
+  figure.ref-box:hover:before,
+  figure.ref-box.hover:before {
     transform: translateY(150%);
   }
 }
