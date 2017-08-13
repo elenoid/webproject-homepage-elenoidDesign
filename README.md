@@ -11,7 +11,6 @@ Seite mit IE testen
 modernizer
 autoprefixer funktioniert nicht?
 Über mich Seite
-Da Vinci man section
 Einleitungstext responsive
 BEM
 
@@ -20,3 +19,4 @@ fertig:
 Einleitungstext
 Solide, Schnell, Sicher, Suport - Section
 - mit Haken
+Da Vinci man section

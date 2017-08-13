@@ -21,10 +21,10 @@
      <div class="navbar-collapse collapse">
 
        <ul class="nav navbar-nav navbar-right">
-         <li class="active"><a href="#">Active</a></li>
+         <li class="active"><a href="#">Home</a></li>
          <li><a href="preis.html">Preis</a></li>
-         <li><a href="#">Link</a></li>
-         <li><a href="#">Link</a></li>
+         <li><a href="#">Über</a></li>
+         <li><a href="#">FAQ</a></li>
        </ul>
      </div>
    </div>
@@ -128,23 +128,29 @@
         <hr>
         <div class="col-md-3">
           <h1>Schnell</h1>
-          <p>{% include_relative _includes/schnell-maintext.md %}</p>
+          {% capture x %}
+          {% include_relative _includes/schnell-maintext.md %}
+          {% endcapture %}{{ x | markdownify }}
         </div>
         <div class="col-md-3">
           <h1>Sicher</h1>
-          <p>{% include_relative _includes/sicher-maintext.md %}</p>
+          {% capture x %}
+          {% include_relative _includes/sicher-maintext.md %}
+          {% endcapture %}{{ x | markdownify }}
         </div>
         <div class="col-md-3">
           <h1>Solide</h1>
-          <p>{% include_relative _includes/solide-maintext.md %}</p>
+          {% capture x %}
+          {% include_relative _includes/solide-maintext.md %}
+          {% endcapture %}{{ x | markdownify }}
         </div>
         <div class="col-md-3">
           <h1>Support</h1>
-          <p>{% include_relative _includes/support-maintext.md %}</p>
+          {% capture x %}
+          {% include_relative _includes/support-maintext.md %}
+          {% endcapture %}{{ x | markdownify }}
         </div>
-        <div class="clearfix">
-
-        </div>
+        <div class="clearfix"></div>
         <hr>
       </div>
     </div>
@@ -156,8 +162,9 @@
 
 
   <!-- ====================================== -->
-  <section id="referenz">
+  <section id="reference">
     <div class="container">
+      <h1>Referenz</h1>
       <div class="row">
         <div class="col-md-4">
           <figure class="ref-box"><img src="/img/sanvitech-logo-profil.jpg" alt="sanvitech-logo"/>
@@ -190,13 +197,24 @@
 
 
   <!-- ====================================== -->
-  <section id="kontakt">
+  <section id="contact">
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-
+        <div class="col-md-12 contact__title">
+          <h1>Kontaktieren Sie mich...</h1>
         </div>
-      </div>
+
+        <div class="row">
+        <div class="col-md-3">
+          <img src="/img/da-vinci-helicopter.png" alt="">
+        </div>
+        <div class="col-md-6">
+          <ul>
+            <li>Pascal Zwicker</li>
+            <li>077/459/27/80</li>
+            <li>elenoiddesign@gmail.com</li>
+          </ul>
+        </div>
+        </div>
     </div>
   </section>
   <!-- ====================================== -->

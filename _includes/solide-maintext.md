@@ -1,1 +1,7 @@
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Zu einer guten Seite gehört auch das unterstützen möglichst vielen Besucher Ihrer Seite.
+Mit Responive Design ist es egal, ob der Anwender Ihre Seite per Smartphone Tablet oder Deskop besucht.
+Durch die statische Struktur wird Ihre Seite minimal belastet,
+somit ist sie auch für grössere Aufruferzahlen bestens geeignet.
+Alle gängigen Browser wie Firefox Chrome Safari und Internet Explorer werden
+bevor Fertigstellung durchgängig getestet.

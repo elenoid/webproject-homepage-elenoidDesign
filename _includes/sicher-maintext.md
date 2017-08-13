@@ -1,1 +1,8 @@
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Sicherheit ist ein grosse Angelegenheit bei heutigen Webseiten.
+Werden nicht rechtzeitig Sicherheitsupdates installiert,
+so haben Hacker leichtes Spiel Daten wie Ihr Passwort zu stehlen
+und Malware und Viren auf Ihrer Seite zu installiern.
+[Mehr dazu hier.](https://blog.hostpoint.ch/de/2016/01/sicherheit-der-schweizer-webseiten-mangelhaft/)
+Mit einer statischen Webseite bleibt Ihre Webseite wartungsfrei und Hacksicher,
+zusätzlich können Sie Ihre Webseite mit SSL sichern, um Ihre Anwender optimal zu schützen.

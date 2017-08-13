@@ -7,14 +7,28 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
-#referenz{
-  background-color: #b1a5c1;
-  background-color: #d1c9dc;
-  margin-top: 120px;
-  margin-bottom: 500px;
+#reference{
+  background-image: radial-gradient(circle,
+  rgba(236, 233, 240, 0.5) 0%, rgba(200, 190, 216, 0.5) 120%);
+  margin-top: 200px;
+  padding-top: 100px;
+  padding-bottom: 120px;
+
+  h1{
+    margin-left: -15px;
+    display: inline;
+    color: #fff;
+    font-family: koblenz;
+    font-size: 40px;
+  }
+
+  .row{
+    border: #fff 2px solid;
+    padding: 20px 0;
+  }
 
   figure.ref-box {
-    background-color: $dark-violet2;
+    background-color: #fff;
     font-family: 'Raleway', Arial, sans-serif;
     position: relative;
     overflow: hidden;
@@ -26,6 +40,7 @@
     color: #ffffff;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 4px;
   }
   figure.ref-box * {
     box-sizing: border-box;
@@ -47,7 +62,7 @@
     position: absolute;
     left: 40px;
     right: 40px;
-    background: $dark-violet;
+    background: $dark-violet2;
     transform: translate(0, -50%);
     padding: 12px 10px;
     margin: 0;
