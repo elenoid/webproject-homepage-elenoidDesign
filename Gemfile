@@ -22,6 +22,8 @@ gem 'octopress-autoprefixer'
 gem 'jekyll-analytics'
 # minifies html, js, css files
 gem 'jekyll-press'
+# github icons
+gem 'jekyll-octicons'
 
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"

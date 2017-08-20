@@ -101,6 +101,23 @@
       <div class="clearfix"></div>
       <hr>
     </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="introduction-text__icon-box">
+          <a href="#">Preis</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="introduction-text__icon-box">
+          <a href="#">Über</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="introduction-text__icon-box">
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 <!-- ====================================== -->
@@ -150,9 +167,32 @@
           {% include_relative _includes/support-maintext.md %}
           {% endcapture %}{{ x | markdownify }}
         </div>
-        <div class="clearfix"></div>
-        <hr>
       </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <div class="working-method__icon-box">
+              {% octicon dashboard height:100% width:100% %}
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="working-method__icon-box">
+              {% octicon shield height:100% width:100% %}
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="working-method__icon-box">
+              {% octicon checklist height:100% width:100% %}
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="working-method__icon-box">
+              {% octicon comment-discussion height:100% width:100% %}
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <hr>
+        </div>
     </div>
   </section>
   <!-- ====================================== -->

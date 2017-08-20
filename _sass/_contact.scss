@@ -8,13 +8,14 @@
 #contact{
   background-color: $dark-violet;
   box-shadow: rgba(0, 0, 0, 0.4) 0px -3px 4px;
-  background: linear-gradient(0deg, #57358c -50%, #3a235d 100%);
-  padding-top: 60px;
+  // background: linear-gradient(0deg, #57358c -50%, #3a235d 100%);
+  background-image: radial-gradient(circle, #57358c 0%, #3a235d 150%);
+  padding-top: 50px;
   padding-bottom: 140px;
 
   h1{
     display: inline;
-    color: #eee;
+    color: #f9f9f9;
     margin-left: -15px;
     font-family: koblenz;
     font-size: 40px;
