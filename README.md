@@ -20,3 +20,19 @@ Einleitungstext
 Solide, Schnell, Sicher, Suport - Section
 - mit Haken
 Da Vinci man section
+
+
+
+Seiten:
+**********
+- Preis
+- Referenz
+- Blog
+- Update
+- FAQ
+
+
+RealLife:
+**********
+- Werbeagentur beauftragen -> Flyer
+- G17 -> Flyer verteilen
