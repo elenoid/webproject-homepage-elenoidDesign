@@ -11,7 +11,7 @@
 
   h1{
     display: inline;
-    color: $dark-violet2;
+    color: $dark-violet;
     font-family: koblenz;
     font-size: 40px;
   }
@@ -36,6 +36,15 @@
     margin: 10px 0 0 0;
     font-family: raleway;
     width: 100%;
+  }
+
+  img{
+    display: block;
+    border: 1px solid #444;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: auto;
+    width: 930px;
   }
 
   .col-md-3:first-of-type {

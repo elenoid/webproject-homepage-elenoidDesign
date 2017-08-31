@@ -7,10 +7,10 @@
 // =====================================
 
 #working-method{
-  margin-top: 220px;
+  margin-top: 250px;
 
   h1{
-    color: $dark-violet2;
+    color: $dark-violet;
     font-family: koblenz;
     font-size: 40px;
     margin-bottom: 15px;
@@ -30,6 +30,7 @@
     padding: 13px;
     fill: #fdfdfd;
   }
+
   .octicon-checklist{
     padding-top: 9px;
     padding-bottom: 7px;
@@ -42,11 +43,31 @@
   .working-method__icon-box{
     border-radius: 2px;
     border: 4px $dark-violet solid;
-    background-color: $dark-violet2;
+    // background-color: $dark-violet2;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 2px;
     height: 60px;
     margin-top: 30px;
     margin-left: 10px;
     opacity: 0.95;
+  }
+  .working-method__icon-box--fast{
+    background-color: coral;
+    border-color: #ffb093;
+    border-color: #bb552f;
+  }
+  .working-method__icon-box--safe{
+    background-color: darkseagreen;
+    border-color: #acd6ac;
+    border-color: #558455;
+  }
+  .working-method__icon-box--solid{
+    background-color: cadetblue;
+    border-color: #82b9bb;
+    border-color: #2a6567;
+  }
+  .working-method__icon-box--support{
+    background-color: goldenrod;
+    border-color: #eabb44;
+    border-color: #a2780e;
   }
 }
