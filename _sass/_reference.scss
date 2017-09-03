@@ -22,8 +22,12 @@
 
   .row{
     border: #fff 2px solid;
-    padding: 20px 0;
+    padding: 0;
     margin: 0;
+  }
+
+  .reference__grid{
+    margin: 20px 0;
   }
 
   figure.ref-box {
@@ -33,13 +37,20 @@
     overflow: hidden;
     margin: auto;
     min-width: 220px;
-    max-width: 310px;
-    height: 220px;
+    max-width: 410px;
+    height: 320px;
     width: 100%;
     color: #ffffff;
     text-align: center;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
     box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 4px;
+  }
+  @media (min-width: 768px) {
+    figure.ref-box{
+      height: 220px;
+      min-width: 220px;
+      max-width: 310px;
+    }
   }
   figure.ref-box * {
     box-sizing: border-box;
