@@ -32,6 +32,11 @@
   .contact__img{
     height: 200px
   }
+  @media(max-width: 500px){
+    .contact__img{
+      height: 150px;
+    }
+  }
 
   ul{
     display: inline;
@@ -46,6 +51,11 @@
     color: #fff;
     font-size: 32px;
     letter-spacing: 4px;
+  }
+  @media(max-width: 500px){
+    li{
+      font-size: 10px;
+    }
   }
 
   iframe{
