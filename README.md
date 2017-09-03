@@ -1,26 +1,28 @@
 Zu tun:
 *********
-Kontakt
-- Rufen sie mich an gross
-Referenz
 Preis Seite
-- in Packete
+- in Pakete
+index Responsive
+Analitycs installieren
+Github hosten
+
+
+wichtig!
+*********
+Referenz
 FAQ - Seite
 Seite mit IE testen
 - VM Windows einrichten
 modernizer
 autoprefixer funktioniert nicht?
 Über mich Seite
-Einleitungstext responsive
 BEM
 
-fertig:
-*********
-Einleitungstext
-Solide, Schnell, Sicher, Suport - Section
-- mit Haken
-Da Vinci man section
 
+RealLife:
+**********
+- Werbeagentur beauftragen -> Flyer
+- G17 -> Flyer verteilen
 
 
 Seiten:
@@ -32,7 +34,11 @@ Seiten:
 - FAQ
 
 
-RealLife:
-**********
-- Werbeagentur beauftragen -> Flyer
-- G17 -> Flyer verteilen
+fertig:
+*********
+Einleitungstext
+Solide, Schnell, Sicher, Suport - Section
+- mit Haken
+Da Vinci man section
+Kontakt
+- Rufen sie mich an gross
