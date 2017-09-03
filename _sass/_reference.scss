@@ -14,7 +14,6 @@
   padding-bottom: 120px;
 
   h1{
-    margin-left: -15px;
     display: inline;
     color: #fff;
     font-family: koblenz;
@@ -24,6 +23,7 @@
   .row{
     border: #fff 2px solid;
     padding: 20px 0;
+    margin: 0;
   }
 
   figure.ref-box {
@@ -34,7 +34,7 @@
     margin: auto;
     min-width: 220px;
     max-width: 310px;
-    max-height: 220px;
+    height: 220px;
     width: 100%;
     color: #ffffff;
     text-align: center;
@@ -46,7 +46,8 @@
     transition: all 0.4s ease-in-out;
   }
   figure.ref-box img {
-    max-width: 100%;
+    width: 100%;
+    min-height: 100%;
     position: relative;
     opacity: 0.4;
   }

@@ -29,39 +29,12 @@
     font-size: 15px;
   }
 
-  a{
-    color: #fff;
-    text-align: center;
-    display: inline-block;
-    margin: 10px 0 0 0;
-    font-family: raleway;
-    width: 100%;
-  }
-
   img{
     display: block;
     border: 1px solid #444;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 55px;
     height: auto;
-    width: 930px;
-  }
-
-  .col-md-3:first-of-type {
-    margin-left: 12.5%;
-  }
-
-  .introduction-text__icon-box{
-    border-radius: 2px;
-    border: 4px $dark-violet solid;
-    background-color: $dark-violet2;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 2px;
-    height: 55px;
-    letter-spacing: 2px;
-    font-size: 20px;
-    margin-top: 50px;
-    margin-bottom: 80px;
-    margin-left: 10px;
-    opacity: 0.95;
+    width: 100%;
   }
 }

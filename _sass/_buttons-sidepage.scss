@@ -1,0 +1,32 @@
+#buttons-sidepage{
+  background-image: radial-gradient(circle, rgba(236, 233, 240, 0.5) 0%, rgba(200, 190, 216, 0.5) 120%);
+  position: relative;
+
+  a{
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0 0 0;
+    font-family: raleway;
+    width: 100%;
+  }
+
+  .col-sm-3:first-of-type {
+    margin-left: 12.5%;
+  }
+
+  .introduction-text__icon-box{
+    border-radius: 2px;
+    border: 4px $dark-violet solid;
+    background-color: $dark-violet2;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 2px;
+    height: 55px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+    opacity: 0.95;
+  }
+}
