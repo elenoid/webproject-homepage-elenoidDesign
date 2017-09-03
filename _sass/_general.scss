@@ -29,3 +29,12 @@ hr{
   margin-top: 35px;
   margin-bottom: 35px;
 }
+h1{
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  h1{
+    font-size: 40px;
+  }
+}

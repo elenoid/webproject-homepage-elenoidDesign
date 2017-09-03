@@ -8,7 +8,7 @@
   margin-top: 250px;
   position: relative;
   padding-top: 15px;
-  height: 245px;
+  height: 195px;
 
   .vitruvian-man__box{
     background-color: $body-color;
@@ -24,7 +24,12 @@
     margin: 0 auto;
     padding: 15px;
     height: inherit;
-    width: 245px;
+    width: 195px;
+  }
+  @media(min-width: 768px){
+    .vitruvian-man__circle{
+      width: 245px;
+    }
   }
 
   .vitruvian-man__img{
@@ -42,11 +47,21 @@
     background-color: #3a235d;
     background-image: radial-gradient(circle, #3a235d 0%, #57358c 120%);
     position: absolute;
-    height: 177px;
+    height: 137px;
     z-index: -1;
 
     left: 0;
     right: 0;
     bottom: 0;
+  }
+  @media(min-width: 768px){
+    .vitruvian-man__stripe{
+      height: 177px;
+    }
+  }
+}
+@media(min-width: 768px){
+  #vitruvian-man{
+    height: 245px;
   }
 }
