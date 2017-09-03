@@ -128,17 +128,17 @@
  <section id="buttons-sidepage">
    <div class="container">
      <div class="row">
-       <div class="col-sm-3">
+       <div class="col-sm-4 col-md-3">
          <div class="introduction-text__icon-box">
            <a href="#">Preis</a>
          </div>
        </div>
-       <div class="col-sm-3">
+       <div class="col-sm-4 col-md-3">
          <div class="introduction-text__icon-box">
            <a href="#">Über</a>
          </div>
        </div>
-       <div class="col-sm-3">
+       <div class="col-sm-4 col-md-3">
          <div class="introduction-text__icon-box">
            <a href="#">FAQ</a>
          </div>
@@ -160,28 +160,43 @@
           {% capture x %}
           {% include_relative _includes/schnell-maintext.md %}
           {% endcapture %}{{ x | markdownify }}
+
+          <div class="working-method__icon-box working-method__icon-box--fast">
+            {% octicon dashboard height:100% width:100% %}
+          </div>
         </div>
         <div class="col-md-3">
           <h1>Sicher</h1>
           {% capture x %}
           {% include_relative _includes/sicher-maintext.md %}
           {% endcapture %}{{ x | markdownify }}
+
+          <div class="working-method__icon-box working-method__icon-box--safe">
+            {% octicon shield height:100% width:100% %}
+          </div>
         </div>
         <div class="col-md-3">
           <h1>Solide</h1>
           {% capture x %}
           {% include_relative _includes/solide-maintext.md %}
           {% endcapture %}{{ x | markdownify }}
+
+          <div class="working-method__icon-box working-method__icon-box--solid">
+            {% octicon checklist height:100% width:100% %}
+          </div>
         </div>
         <div class="col-md-3">
           <h1>Support</h1>
           {% capture x %}
           {% include_relative _includes/support-maintext.md %}
           {% endcapture %}{{ x | markdownify }}
+          <div class="working-method__icon-box working-method__icon-box--support">
+            {% octicon comment-discussion height:100% width:100% %}
+          </div>
         </div>
       </div>
 
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-3">
             <div class="working-method__icon-box working-method__icon-box--fast">
               {% octicon dashboard height:100% width:100% %}
@@ -203,7 +218,7 @@
             </div>
           </div>
           <div class="clearfix"></div>
-        </div>
+        </div> -->
     </div>
   </section>
   <!-- ====================================== -->

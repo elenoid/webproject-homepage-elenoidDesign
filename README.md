@@ -5,7 +5,7 @@ Preis Seite
 index Responsive
 Analitycs installieren
 Github hosten
-
+rechtsschreibungscheck 
 
 wichtig!
 *********
